@@ -2,5 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ninja.github-publishing-test</groupId>
   <artifactId>github-publishing-test</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>${version}</version>
+  
+  <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>kwbhatti</name>
+     <url>https://maven.pkg.github.com/kwbhatti/github-publishing-test</url>
+   </repository>
+</distributionManagement>
+
 </project>
